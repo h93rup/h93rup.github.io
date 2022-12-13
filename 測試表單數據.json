@@ -1,0 +1,34 @@
+{
+"parameters":{
+    "range":["50"],
+    "checkbox":["多選2"],
+    "email":["h93rup@gmail.com",""],
+    "name":[" 999"],
+    "password":[""],
+    "month":[""],
+    "url":["http:Google.com.hk"],
+    "date":[""],
+    "color":["#000000"],
+    "radio":["單選2"],
+    "number":[""],
+    "search":[""],
+    "week":[""]},
+    
+    "parameter":{
+    "week":"",
+    "date":"",
+    "name":" 999",
+    "search":"",
+    "url":"http:Google.com.hk",
+    "number":"",
+    "color":"#000000",
+    "radio":"單選2",
+    "range":"50",
+    "password":"",
+    "month":"",
+    "email":"h93rup@gmail.com",
+    "checkbox":"多選2"},
+    "contextPath":"",
+    
+    "postData":{"contents":"name=+999&url=http%3AGoogle.com.hk&email=h93rup%40gmail.com&date=&month=&week=&number=&color=%23000000&search=&range=50&radio=%E5%96%AE%E9%81%B82&checkbox=%E5%A4%9A%E9%81%B82&email=&password=","length":191,"name":"postData","type":"application/x-www-form-urlencoded"},"queryString":"","contentLength":191
+}
