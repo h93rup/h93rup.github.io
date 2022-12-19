@@ -181,6 +181,8 @@
 <!-- 隱藏-->
 <input type="hidden" name='op' value='set_sheet' class="form-control" id="op">
 
+<input type="hidden" name='callback_url' value='http://127.0.0.1:5500/index04.html' id="callback_url">
+
 <button type="submit" class="btn btn-primary w-100">送出</button>
 
 
@@ -190,9 +192,16 @@
 </main>
 <script>
 window.onload=function(){
+    let callback_url=window.location.href;
+    document.getElementById('callback_url');
+    callback_url.value=url;
+    
+    let submitBtn = document.getElementById('submit');
+    submitBtn.onclick = function() {//監聽 submit
+    
     let box = document.querySelector('.container');
     box.insertAdjacentHTML("afterend", "<div class='text-center mt-3'>container寬度：" + box.clientWidth + "px</div>" + "<div class='text-center mt-3'>網頁可見區域寬：" + document.body.clientWidth + "px</div>" );
-    }
+    }}
 </script>
 
 </body>
